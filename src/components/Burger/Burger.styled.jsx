@@ -4,7 +4,7 @@ export const StyledBurger = styled.div`
   position: relative;
   top: 0;
   right: 0;
-  height: 20px;
+  height: 19px;
   width: 30px;
   z-index: 10;
   span {
