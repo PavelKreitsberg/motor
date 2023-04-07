@@ -12,7 +12,7 @@ export const HeroWrapper = styled.div`
       rgba(5, 25, 52, 1) 0%,
       rgba(255, 255, 255, 0.3) 100%
     ),
-    url(../../images//test-image.jpg);
+    url(./images/test-image.jpg);
 
   background-position: center;
   background-repeat: no-repeat;

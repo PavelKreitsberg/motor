@@ -1,5 +1,6 @@
 import { HeroWrapper } from "./Hero.styled";
-import TestImage from "../../images/test-image.jpg";
+
+
 function Hero() {
   return (
     <>

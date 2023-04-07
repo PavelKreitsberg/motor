@@ -1,4 +1,4 @@
-// import TeamList from "../../public/team";
+
 
 function Team() {
   const teamList = {
@@ -41,7 +41,6 @@ function Team() {
       },
     ],
   };
-  console.log(teamList);
   return (
     <>
       <h2>Team</h2>
