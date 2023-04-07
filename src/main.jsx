@@ -4,14 +4,16 @@ import App from "./components/App/App";
 import "./index.css";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="motor">
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
