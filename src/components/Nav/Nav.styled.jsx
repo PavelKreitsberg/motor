@@ -56,7 +56,7 @@ export const Link = styled(NavLink)`
   }
 
   ${up("pcSizeS")} {
-    font-size: ${({ theme }) => theme.fontSizes.md};
+    font-size: ${({ theme }) => theme.fontSizes.sm};
     padding: 8px 0;
     margin-right: 8px;
 

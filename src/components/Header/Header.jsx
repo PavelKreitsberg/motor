@@ -12,13 +12,13 @@ function Header() {
   const { isDesktop } = useMatchMedia();
 
   return (
-    <HeaderContainer>
+       <HeaderContainer>
       {isDesktop && <Nav open={open} setOpen={setOpen} />}
       <Logo open={open} setOpen={setOpen} />
       {!isDesktop && <Burger open={open} setOpen={setOpen} />}
       {isDesktop && <AuthNav open={open} setOpen={setOpen} />}
       <Menu open={open} setOpen={setOpen} />
-    </HeaderContainer>
+    </HeaderContainer>   
   );
 }
 

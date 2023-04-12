@@ -5,11 +5,11 @@ import Container from "../Container/Container.styled";
 
 function Layout() {
   return (
-    <Container>
+     <Container>
       <Header />
       <Outlet />
       <Footer />
-    </Container>
+     </Container>    
   );
 }
 
