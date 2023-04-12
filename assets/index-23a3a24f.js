@@ -133,7 +133,7 @@ Error generating stack: `+o.message+`
   }
 
   ${bt.up("pcSizeS")} {
-    font-size: ${({theme:e})=>e.fontSizes.md};
+    font-size: ${({theme:e})=>e.fontSizes.sm};
     padding: 8px 0;
     margin-right: 8px;
 
@@ -141,6 +141,8 @@ Error generating stack: `+o.message+`
       margin-right: 0px;
     }
   }
+
+
 `;function np({open:e,setOpen:t}){return en(d1,{children:[I(Sc,{open:e,onClick:()=>t(!1),to:"/register",children:"REGISTER"}),I(Sc,{open:e,onClick:()=>t(!1),to:"/login",children:"LOGIN"})]})}const p1=He.p`
   font-size: 36px;
   font-weight: 300;
@@ -198,7 +200,7 @@ Error generating stack: `+o.message+`
   }
 
   ${bt.up("pcSizeS")} {
-    font-size: ${({theme:e})=>e.fontSizes.md};
+    font-size: ${({theme:e})=>e.fontSizes.sm};
     padding: 8px 0;
     margin-right: 8px;
 
@@ -249,7 +251,7 @@ Error generating stack: `+o.message+`
   justify-content: space-around;
 
   margin-top: 24px;
-`;function N1(){return en($1,{children:[I(_1,{color:"#051934",size:"32px"}),I(P1,{color:"#051934",size:"32px"}),I(E1,{color:"#051934",size:"32px"})]})}const z1=He.nav`
+`;function N1(){return en($1,{children:[I(_1,{color:"#051934",size:"32px"}),I("a",{href:"https://www.instagram.com/handball.club.motor/",target:"_blank",children:I(P1,{color:"#051934",size:"32px"})}),I(E1,{color:"#051934",size:"32px"})]})}const z1=He.nav`
   position: fixed;
   top: 0;
   left: 0;
