@@ -251,7 +251,7 @@ Error generating stack: `+o.message+`
   justify-content: space-around;
 
   margin-top: 24px;
-`;function N1(){return en($1,{children:[I(_1,{color:"#051934",size:"32px"}),I("a",{href:"https://www.instagram.com/handball.club.motor/",target:"_blank",children:I(P1,{color:"#051934",size:"32px"})}),I(E1,{color:"#051934",size:"32px"})]})}const z1=He.nav`
+`;function N1(){return en($1,{children:[I("a",{href:"https://www.youtube.com/@motorhandballclub5101/featured",target:"_blank",children:I(_1,{color:"#051934",size:"32px"})}),I("a",{href:"https://www.instagram.com/handball.club.motor/",target:"_blank",children:I(P1,{color:"#051934",size:"32px"})}),I("a",{href:"https://www.facebook.com/handball.club.motor/",target:"_blank",children:I(E1,{color:"#051934",size:"32px"})})]})}const z1=He.nav`
   position: fixed;
   top: 0;
   left: 0;
